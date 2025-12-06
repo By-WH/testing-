@@ -1,0 +1,59 @@
+/*
+ * Copyright (c) 2022 Ankit Suda.
+ *
+ * Licensed under the GNU General Public License v3
+ *
+ * This is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ */
+
+rootProject.name = "Rebound"
+
+include ':app'
+include ":modules:base"
+include ':modules:base-android'
+include ':modules:common-ui-compose'
+include ':modules:common-ui-theme'
+include ':modules:common-ui-resources'
+include ':modules:core-data'
+include ':modules:common-data'
+include ':modules:domain'
+include ':modules:ui-settings'
+include ':modules:common-ui-components'
+include ':modules:common-ui-icons'
+include ':modules:common-ui-components-settings'
+include ':modules:common-ui-components-workout-editor'
+include ':modules:navigation'
+include ':modules:ui-measure'
+include ':modules:ui-part-measure'
+include ':modules:ui-calendar'
+include ':modules:ui-home'
+include ':modules:ui-workout'
+include ':modules:ui-workout-panel'
+include ':modules:ui-workout-details'
+include ':modules:ui-more-screen'
+include ':modules:ui-create-exercise'
+include ':modules:ui-exercises'
+include ':modules:ui-exercise-details'
+include ':modules:ui-history'
+include ':modules:ui-personalization'
+include ':modules:ui-exercise-details-tab-about'
+include ':modules:ui-exercise-details-tab-charts'
+include ':modules:ui-exercise-details-tab-history'
+include ':modules:ui-workout-template-preview'
+include ':modules:ui-workout-template-edit'
+include ':modules:stopwatch'
+include ':modules:ui-rest-timer'
+include ':modules:core-rest-timer'
+include ':modules:ui-workout-edit'
+include ':modules:ui-keyboard'
+include ':modules:ui-customize-plates'
+include ':modules:common-ui-components-number-picker'
+include ':modules:ui-customize-barbells'
+include ':modules:ui-muscle-selector'
+include ':modules:ui-exercise-category-selector'
